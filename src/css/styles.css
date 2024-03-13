@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 0px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+body {
+    background-color: #F2F5EA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 1.6em;
+    text-align: left;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    text-align: left;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 100%;
+    max-width: 800px;
+    color: rgb(72, 89, 105);
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+}
+
+label {
+    display: block;
+    justify-content: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    line-height: 1em;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+    width: 20%;
+    min-width: 300px;
+}
+
+th {
+    cursor: pointer;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="js/main.js"></script>
+    <title>Ecma</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Webbutveckling - Ramschema</h1>
+        <label for="searchBar"><strong>Sök:</strong></label>
+        <input type="text" id="searchBar" length="30" placeholder="Sök efter kurskod eller kursnamn" />
+    </div>
+
+    <body>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th><button id="code"><strong>Kurskod</strong></button></th>
+                        <th><button id="courseName"><strong>Kursnamn</strong></button></th>
+                        <th><button id="progression"><strong>Progression</strong></button></th>
+                    </tr>
+                </thead>
+                <tbody id="courseList"></tbody>
+            </table>
+            <div id="error"></div>
+        </div>
+    </body>
+
+</html>
